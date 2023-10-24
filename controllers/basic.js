@@ -1,6 +1,6 @@
 var jwt = require('jsonwebtoken')
 const bycrypt = require("bcryptjs");
-const checkAuth = require("/var/www/api_wsf/middleware/checkauth");
+const checkAuth = require("../middleware/checkauth");
 
 
 module.exports = function (app) {
